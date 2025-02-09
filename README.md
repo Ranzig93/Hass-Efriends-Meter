@@ -1,6 +1,6 @@
 # E-Friends Meter Integration
 
-A **custom integration** for [Home Assistant](https://www.home-assistant.io/) that reads or writes data to an [Efriends](https://www.efriends.at/). It allows you to monitor energy consumption/production and (optionally) peer trading information within Home Assistant.
+A **custom integration** for [Home Assistant](https://www.home-assistant.io/) that reads or writes data to an [Efriends METER](https://www.efriends.at/). It allows you to monitor energy consumption/production and (optionally) peer trading information within Home Assistant.
 
 ## Table of Contents
 
