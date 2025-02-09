@@ -1,0 +1,12 @@
+DOMAIN = "efriends"
+CONF_HOST = "host"
+CONF_MODE = "mode"
+CONF_CONSUMPTION_ENTITY = "consumption_entity"
+CONF_API_KEY = "api_key"
+DEFAULT_HOST = "192.168.0.100"
+TRADERS_FILE_PATH = "/config/efriends/"
+
+CONF_NAME = "E-Friends Meter"
+CONF_MANUFACTURER = "E-Friends"
+CONF_MODEL = "SocketIO Meter"
+CONF_SW_VERSION = "1.0"

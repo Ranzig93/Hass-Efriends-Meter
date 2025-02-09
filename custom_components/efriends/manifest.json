@@ -1,0 +1,13 @@
+{
+  "domain": "efriends",
+  "name": "E-Friends Meter",
+  "version": "0.1.0",
+  "documentation": "https://github.com/Ranzig93/Hass-Efriends-Meter",
+  "requirements": [
+    "python-socketio==5.12.1",
+    "requests>=2.27.1"
+  ],
+  "codeowners": ["@Ranzig93"],
+  "iot_class": "local_push",
+  "config_flow": true
+}
