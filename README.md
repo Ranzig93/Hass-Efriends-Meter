@@ -1,6 +1,6 @@
 # E-Friends Meter Integration
 
-A **custom integration** for [Home Assistant](https://www.home-assistant.io/) that reads or writes data to an **E-Friends Meter**. It allows you to monitor energy consumption/production and (optionally) peer trading information within Home Assistant.
+A **custom integration** for [Home Assistant](https://www.home-assistant.io/) that reads or writes data to an [Efriends](https://www.efriends.at/). It allows you to monitor energy consumption/production and (optionally) peer trading information within Home Assistant.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ A **custom integration** for [Home Assistant](https://www.home-assistant.io/) th
   - Creates Home Assistant sensors for these values.
 - **Write mode**:
   - Periodically sends locally measured power data (e.g., from a Home Assistant sensor) to the E-Friends server via HTTP POST.
-  - Uses an API key for authentication.
+  - Uses an API key for authentication (you get it from efriends support).
 - **Peer Trading (optional)**:
   - Captures trading data (energy balance, order volume, etc.).
   - Dynamically creates sensors for each trader ID.
@@ -55,7 +55,7 @@ A **custom integration** for [Home Assistant](https://www.home-assistant.io/) th
    - **Host**: IP address (or hostname) of your E-Friends device/server.
    - **Mode**: `read` (read data) or `write` (send data).
    - **Consumption Entity** (only in write mode): The entity ID that provides local consumption data (e.g., `sensor.my_power_usage`).
-   - **API Key** (only in write mode): Required for sending data to the E-Friends server.
+   - **API Key** (only in write mode, you get it from efriends support): Required for sending data to the E-Friends server.
 4. Save and wait for the integration to set up. The sensors should then appear in Home Assistant.
 
 ## Configuration
